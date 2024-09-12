@@ -1,10 +1,22 @@
+body {
+    width: 100%;
+    margin: 0px;
+
+    
+}
+
+button {
+    color: white;
+    border-color: transparent;
+}
+
+
 .navbarL {
     width: 30%;
     max-width: 500px;
     min-height: 50px;
     display: flex;
     justify-content: space-evenly;
-    border: red solid 2px;
 
 }
 img {
@@ -12,14 +24,17 @@ img {
 
 }
 .navbar {
-    border: 2px solid yellowgreen;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    background-color: black;
+    
 
 }
 .navbarR > .oslo  {
     max-width: 100px;
+    border: transparent;
+    
 
 }
 
@@ -44,12 +59,13 @@ img {
 }
 
 .navbarR {
+    gap: 130px;
     width: 30%;
     max-width: 500px;
     min-height: 50px;
     display: flex;
     justify-content: space-evenly;
-    border: red solid 2px;
+    flex-direction: row;
 
 }
 
@@ -65,3 +81,54 @@ img {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+
+a{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.home{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imageside > .txt {
+    order: 3;
+    
+
+}
+
+.txt{  
+    display: flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 10px;
+}
+
+.textbubble{
+    order: 2;
+    border: 2px solid black;
+    background-color: orange;
+    height: 298px;
+
+}
+
+
+.imageside {
+
+    height: 300px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 5rem;
+}
+
+
+
