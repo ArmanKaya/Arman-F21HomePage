@@ -1,0 +1,67 @@
+.navbarL {
+    width: 30%;
+    max-width: 500px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: red solid 2px;
+
+}
+img {
+    display: block;
+
+}
+.navbar {
+    border: 2px solid yellowgreen;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.navbarR > .oslo  {
+    max-width: 100px;
+
+}
+
+
+
+
+.navbarL > * {
+    font-size: 20px;
+    width: 100px;
+    background-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.o {
+    color: orange;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbarR {
+    width: 30%;
+    max-width: 500px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    border: red solid 2px;
+
+}
+
+.navbarR > .kontakt {
+    height: 100;
+    width: 96px;
+}
+
+.navbarR > * {
+    font-size: 20px;
+    width: 100px;
+    background-color: transparent;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
