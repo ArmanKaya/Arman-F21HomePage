@@ -1,6 +1,7 @@
 body {
     width: 100%;
     margin: 0px;
+    
 
     
 }
@@ -90,10 +91,13 @@ a{
 }
 
 .home{
+    display: grid;
+    grid-column: 1;
     height: 800px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    margin-block-start: 5rem;
+    /* align-items: center; */
 
 }
 
@@ -107,13 +111,18 @@ a{
     display: flex;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-left: 10px;
+
 }
 
 .textbubble{
+    display: flex;
+    align-items: center;
     order: 2;
     border: 2px solid black;
-    background-color: orange;
+    background-color: #ffa500;
     height: 298px;
+    gap: 6rem;
+
 
 }
 
@@ -130,5 +139,55 @@ a{
     gap: 5rem;
 }
 
+.box1 {
+    display: flex;
+    order: 4;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(170, 170, 170);
+    border: black solid 5px;
+    position: absolute;
+    top: 71%;
+    right: 75%;
 
 
+
+}   
+
+.box1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+figcaption{
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+.magasin {
+    display: flex;
+    border: red solid 3px;
+
+}
+
+.box2 {
+
+    order: 5;
+
+    height: 400px;
+    width: 300px;
+
+    display: flex;
+    align-content: flex-end;
+
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}
+
+.home > .box2
