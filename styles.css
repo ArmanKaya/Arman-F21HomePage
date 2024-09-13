@@ -1,10 +1,18 @@
 body {
     width: 100%;
     margin: 0px;
+    background-color: gray;
     
 
     
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
 
 button {
     color: white;
@@ -32,13 +40,13 @@ img {
     
 
 }
-.navbarR > .oslo  {
-    max-width: 100px;
-    border: transparent;
-    
+
+
+.kontakt > * {
+    text-decoration: none;
+    color: white;
 
 }
-
 
 
 
@@ -83,21 +91,28 @@ img {
 
 }
 
-a{
+.utdanning > a {
     text-decoration: none;
     color: white;
 
 
 }
 
+.im > a{
+    text-decoration: none;
+    color: white;
+
+}
+
 .home{
     display: grid;
     grid-column: 1;
-    height: 800px;
+    height: 400px;
     display: flex;
     justify-content: center;
     margin-block-start: 5rem;
     /* align-items: center; */
+
 
 }
 
@@ -139,6 +154,8 @@ a{
     gap: 5rem;
 }
 
+
+
 .box1 {
     display: flex;
     order: 4;
@@ -146,9 +163,7 @@ a{
     width: 300px;
     background-color: rgb(170, 170, 170);
     border: black solid 5px;
-    position: absolute;
-    top: 71%;
-    right: 75%;
+
 
 
 
@@ -167,27 +182,48 @@ figcaption{
 
 }
 
-.magasin {
-    display: flex;
-    border: red solid 3px;
 
-}
 
 .box2 {
 
-    order: 5;
+    display: flex;
+    justify-content: center;
 
     height: 400px;
     width: 300px;
-
-    display: flex;
-    align-content: flex-end;
-
-    color: rgb(0, 0, 0);
+    border: black solid 5px;
+    color: white;
+    background-color: rgb(170, 170, 170);
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
+.box3 {
+    
+    display: flex;
+    justify-content: center;
+
+    height: 400px;
+    width: 300px;
+    border: black solid 5px;
+    color: white;
+    background-color: rgb(170, 170, 170);
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+
+    height: 550px;
 
 }
 
-.home > .box2
+.end {
+    border: orange solid 5px;
+    height: 60px;
+    background-color: #ffa500;
+
+}
+
