@@ -7,9 +7,14 @@ body {
     
 }
 
-a {
+a  {
     color: black;
     text-decoration: none;
+}
+
+a:hover{
+    background-color: white;
+    color: #EF7C00;
 }
 
 
@@ -18,6 +23,45 @@ button {
     color: white;
     border-color: transparent;
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+b{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+figcaption{
+    padding: 20px;
+    margin-left: 20px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.kinfo{
+    border: black solid 3px;
+    background-color: rgb(170, 170, 170);
+    max-width: 500px;
+    min-height: 600px;
+    
+}
+
 
 
 .navbarL {
@@ -32,7 +76,7 @@ img {
     display: block;
 
 }
-.navbar {
+nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -58,7 +102,7 @@ img {
 
 }
 .o {
-    color: orange;
+    color: #ffa500;
 }
 
 .logo {
@@ -105,12 +149,13 @@ img {
 }
 
 .home{
-    display: grid;
-    grid-column: 1;
+    display: flex; 
+
     height: 400px;
     display: flex;
     justify-content: center;
     margin-block-start: 5rem;
+    flex-wrap: wrap;
     /* align-items: center; */
 
 
@@ -176,11 +221,7 @@ img {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
-figcaption{
-    padding: 20px;
-    margin-left: 20px;
 
-}
 
 
 
@@ -215,15 +256,116 @@ figcaption{
 .boxes {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 
-    height: 550px;
+    height: 500px;
 
 }
 
-.end {
-    border: orange solid 5px;
+footer {
+    display: flex;
+    border: #EF7C00 solid 5px;
     height: 60px;
-    background-color: #ffa500;
+    background-color: #EF7C00;
+
+    
 
 }
+
+.utdanningslop{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+
+}
+
+.utdanningslop > h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.utdanningsimg{
+    display: flex;
+    justify-content: center;
+    min-height: 680px;
+}
+
+.utdanningsbild{
+    width: 1100px;
+    height: 650px;
+}
+
+.infoim {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    min-height: 400px;
+    gap: 10rem;
+    border-bottom: black solid 2px;
+
+}
+
+.infoimtxt1 > p, ul {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.infoimtxt2 > p, ul {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    min-height: 122px;
+}
+
+
+.infoimtxt1 {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+
+}
+
+.infoimtxt2 {
+    flex-basis: 200px;
+    flex-grow: 1;
+
+}
+
+.infof21 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-left: 10px;    
+    min-height: 400px;
+    gap: 10rem;
+}
+
+.infof211 > p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.infof212 > p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.hjemmesidek{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
+
 
