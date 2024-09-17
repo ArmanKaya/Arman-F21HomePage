@@ -24,8 +24,8 @@ a:hover{
     color: #EF7C00;
 }
 
-figcaption:hover{
-    color: #EF7C00;
+figcaption:hover {
+    color: orange;
 }
 
 button {
