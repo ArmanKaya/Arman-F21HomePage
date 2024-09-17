@@ -12,18 +12,26 @@ body >
 a  {
     color: black;
     text-decoration: none;
+
+}
+
+figcaption{
+    color: black;
+    text-decoration: none;
 }
 
 a:hover{
-    background-color: white;
     color: #EF7C00;
 }
 
-
+figcaption:hover{
+    color: #EF7C00;
+}
 
 button {
     color: white;
     border-color: transparent;
+    cursor: pointer;
 }
 
 h1{
@@ -85,6 +93,10 @@ nav {
     background-color: black;
     
 
+}
+
+a:hover {
+    color: orange;
 }
 
 
@@ -154,11 +166,12 @@ nav {
     display: flex; 
 
     min-height: 400px;
-    max-width: 1200px;
+    min-width:  1200px;
     display: flex;
     justify-content: center;
     margin-block-start: 5rem;
-    border-color: red solid 4px;
+    border-color: red solid 4px
+;
 
 }
 
@@ -264,6 +277,10 @@ nav {
 
 }
 
+
+
+
+
 footer {
     display: flex;
     border: #EF7C00 solid 5px;
@@ -278,6 +295,9 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+
+    height: 1000px;
     
 
 
@@ -291,12 +311,12 @@ footer {
 .utdanningsimg{
     display: flex;
     justify-content: center;
-    min-height: 680px;
+
 }
 
 .utdanningsbild{
-    width: 1100px;
-    height: 650px;
+    min-width: 1050px;
+    height: 750px;
 }
 
 
@@ -306,6 +326,7 @@ footer {
     align-items: flex-start;
     
     min-height: 400px;
+    padding: 20px;
     gap: 10rem;
     border-bottom: black solid 1px;
     
@@ -368,6 +389,56 @@ footer {
     align-items: center;
 }
 
+.infoboxes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40.625rem;
+}
+
+.kinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(170, 170, 170);
+    border: black solid 2px;
+    min-height: 550px;
+    min-width: 570px;
+}
+
+
+.kinfo > p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+
+    
+}
+
+
+
+
+
+.ainfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 550px;
+    min-width: 570px;
+    background-color:rgb(170, 170, 170);
+    border: black solid 2px;
+
+}
+
+
+.ainfo > p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+
+    
+}
 
 
 
