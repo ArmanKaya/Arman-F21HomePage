@@ -1,7 +1,7 @@
 body {
     width: 100%;
     margin: 0px;
-    background-color: #E3E3E3;
+    background-color: #BABABA;
     
 
     
@@ -12,19 +12,24 @@ body >
 a  {
     color: black;
     text-decoration: none;
+    text-decoration-color: orange;
 
 }
 
 figcaption{
     color: black;
-    text-decoration: none;
+    text-decoration-color: orange;
+    text-decoration:underline;
 }
+
+
 
 a:hover{
     color: #EF7C00;
 }
 
 figcaption:hover {
+    text-decoration-color: orange;
     color: orange;
 }
 
@@ -62,6 +67,7 @@ figcaption{
 footer{
     display: flex;
     justify-content: space-around;
+
 }
 
 .kinfo{
@@ -99,6 +105,7 @@ nav {
 a:hover {
     color: orange;
 }
+
 
 
 .kontakt > * {
@@ -171,7 +178,6 @@ a:hover {
     display: flex;
     justify-content: center;
     margin-block-start: 5rem;
-
 }
 
 .imageside > .txt {
@@ -183,7 +189,8 @@ a:hover {
 
 .txt{  
     display: flex;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
     padding-left: 10px;
 
 }
@@ -209,9 +216,10 @@ a:hover {
     background-color: black;
     color: white;
     text-align: center;
+    text-justify: flex-end;
     font-size: 45px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    gap: 5rem;
+
 }
 
 
@@ -221,7 +229,7 @@ a:hover {
     order: 4;
     height: 400px;
     width: 300px;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(141, 138, 138);
     border: black solid 5px;
 
 
@@ -249,7 +257,7 @@ a:hover {
     width: 300px;
     border: black solid 5px;
     color: white;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(141, 138, 138);
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -263,7 +271,7 @@ a:hover {
     width: 300px;
     border: black solid 5px;
     color: white;
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(141, 138, 138);
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -357,6 +365,12 @@ footer {
     flex-basis: 200px;
     flex-grow: 1;
 
+}
+
+.homeimg1 {
+    display: flex;
+    max-height: 300px;
+    box-shadow: 1px 2px 3px
 }
 
 .infof21 {
