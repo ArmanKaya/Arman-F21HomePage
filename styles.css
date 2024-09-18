@@ -1,7 +1,7 @@
 body {
     width: 100%;
     margin: 0px;
-    background-color: gray;
+    background-color: #E3E3E3;
     
 
     
@@ -91,6 +91,7 @@ nav {
     width: 100%;
     justify-content: space-between;
     background-color: black;
+    box-shadow: 1px 2px 3px;
     
 
 }
@@ -170,13 +171,12 @@ a:hover {
     display: flex;
     justify-content: center;
     margin-block-start: 5rem;
-    border-color: red solid 4px
-;
 
 }
 
 .imageside > .txt {
     order: 3;
+
     
 
 }
@@ -193,7 +193,7 @@ a:hover {
     align-items: center;
     order: 2;
     border: 2px solid black;
-    background-color: #ffa500;
+    background-color: #EF7C00;
     min-height: 298px;
     max-height: 298px;
     gap: 6rem;
@@ -389,12 +389,16 @@ footer {
     align-items: center;
 }
 
-.infoboxes{
+
+
+.infoboxes {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    height: 40.625rem;
+    min-height: 740px;
 }
+
 
 .kinfo{
     display: flex;
@@ -406,6 +410,36 @@ footer {
     min-height: 550px;
     min-width: 570px;
 }
+
+.infobuttons{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    justify-content: space-evenly;
+    min-width: 500px;
+}
+
+.infobuttons > button {
+    color: black;
+    text-decoration: none;
+    background-color: #EF7C00;
+    text-decoration: none;
+    border-radius: 20px;
+    min-height: 45px;
+    min-width: 70px;
+    box-shadow: 1px 2px 3px
+
+
+
+}
+.infobuttons  a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+
 
 
 .kinfo > p {
@@ -439,9 +473,5 @@ footer {
 
     
 }
-
-
-
-
 
 
