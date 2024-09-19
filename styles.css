@@ -2,29 +2,27 @@ body {
     width: 100%;
     margin: 0px;
     background-color: #BABABA;
-    
 
-    
+
+
 }
 
-body > 
-
-a  {
+body>a {
     color: black;
     text-decoration: none;
     text-decoration-color: orange;
 
 }
 
-figcaption{
+figcaption {
     color: black;
     text-decoration-color: #EF7C00;
-    text-decoration:underline;
+    text-decoration: underline;
 }
 
 
 
-a:hover{
+a:hover {
     color: #EF7C00;
 }
 
@@ -39,26 +37,26 @@ button {
     cursor: pointer;
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
-h3{
+h3 {
     display: flex;
     justify-content: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
-b{
-    font-family:'Times New Roman', Times, serif;
+b {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
-figcaption{
+figcaption {
     padding: 20px;
     margin-left: 20px;
 
@@ -68,7 +66,7 @@ figure:hover {
     color: orange;
 }
 
-footer{
+footer {
     display: flex;
     justify-content: space-around;
 
@@ -80,7 +78,7 @@ footer {
     height: 60px;
     background-color: #EF7C00;
 
-    
+
 
 }
 
@@ -88,13 +86,14 @@ img {
     display: block;
 
 }
+
 nav {
     display: flex;
     width: 100%;
     justify-content: space-between;
     background-color: black;
     box-shadow: 1px 2px 3px;
-    
+
 
 }
 
@@ -104,12 +103,12 @@ a:hover {
 
 
 
-.kinfo{
+.kinfo {
     border: black solid 3px;
     background-color: rgb(170, 170, 170);
     max-width: 500px;
     min-height: 600px;
-    
+
 }
 
 
@@ -125,7 +124,7 @@ a:hover {
 
 
 
-.kontakt > * {
+.kontakt>* {
     text-decoration: none;
     color: white;
 
@@ -133,13 +132,14 @@ a:hover {
 
 
 
-.navbarL > * {
+.navbarL>* {
     font-size: 20px;
     width: 100px;
     background-color: transparent;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
+
 .o {
     color: #ffa500;
 }
@@ -161,12 +161,12 @@ a:hover {
 
 }
 
-.navbarR > .kontakt {
+.navbarR>.kontakt {
     height: 100;
     width: 96px;
 }
 
-.navbarR > * {
+.navbarR>* {
     font-size: 20px;
     width: 100px;
     background-color: transparent;
@@ -174,7 +174,7 @@ a:hover {
 
 }
 
-.utdanning > a {
+.utdanning>a {
     text-decoration: none;
     color: white;
 
@@ -183,38 +183,38 @@ a:hover {
 
 
 
-.im > a{
+.im>a {
     text-decoration: none;
     color: white;
 
 }
 
-.home{
-    display: flex; 
+.home {
+    display: flex;
 
     min-height: 400px;
-    min-width:  1200px;
+    min-width: 1200px;
     display: flex;
     justify-content: center;
     margin-block-start: 5rem;
 }
 
-.imageside > .txt {
+.imageside>.txt {
     order: 3;
 
-    
+
 
 }
 
-.txt{  
+.txt {
     display: flex;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     padding-left: 10px;
 
 }
 
-.textbubble{
+.textbubble {
     display: flex;
     align-items: center;
     order: 2;
@@ -254,7 +254,7 @@ a:hover {
 
 
 
-}   
+}
 
 .box1 {
     color: rgb(0, 0, 0);
@@ -284,24 +284,24 @@ a:hover {
 
 
 
-.box2  figcaption {
+.box2 figcaption {
     color: white;
     fill: white;
 }
 
-.box3  figcaption {
+.box3 figcaption {
     color: white;
     fill: white;
 }
 
-.box1 figcaption{
-   color: white;
-   fill: white;
+.box1 figcaption {
+    color: white;
+    fill: white;
 
 }
 
 .box3 {
-    
+
     display: flex;
     justify-content: center;
 
@@ -329,33 +329,33 @@ a:hover {
 
 
 
-.utdanningslop{
+.utdanningslop {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 
     height: 1000px;
-    
+
 
 
 }
 
-.utdanningslop > h1 {
+.utdanningslop>h1 {
     display: flex;
     justify-content: center;
     font-size: 60px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 1px 2px 3px;
-}   
+}
 
-.utdanningsimg{
+.utdanningsimg {
     display: flex;
     justify-content: center;
 
 }
 
-.utdanningsbild{
+.utdanningsbild {
     min-width: 1050px;
     height: 750px;
 }
@@ -365,22 +365,24 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    
+
     min-height: 400px;
     padding: 20px;
     gap: 10rem;
     border-bottom: black solid 1px;
-    
+
 
 }
 
-.infoimtxt1 > p, ul {
-    font-family:'Times New Roman', Times, serif;
+.infoimtxt1>p,
+ul {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
-.infoimtxt2 > p, ul {
-    font-family:'Times New Roman', Times, serif;
+.infoimtxt2>p,
+ul {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     min-height: 122px;
 }
@@ -418,19 +420,19 @@ a:hover {
     gap: 10rem;
 }
 
-.infof211 > p {
-    font-family:'Times New Roman', Times, serif;
+.infof211>p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 
 }
 
-.infof212 > p {
-    font-family:'Times New Roman', Times, serif;
+.infof212>p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 
 }
 
-.hjemmesidek{
+.hjemmesidek {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -447,18 +449,18 @@ a:hover {
 }
 
 
-.kinfo{
+.kinfo {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color:rgb(170, 170, 170);
+    background-color: rgb(170, 170, 170);
     border: black solid 2px;
     min-height: 550px;
     min-width: 570px;
 }
 
-.infobuttons{
+.infobuttons {
     display: flex;
     color: black;
     text-decoration: none;
@@ -466,7 +468,7 @@ a:hover {
     min-width: 500px;
 }
 
-.infobuttons > button {
+.infobuttons>button {
     color: black;
     text-decoration: none;
     background-color: #EF7C00;
@@ -475,11 +477,9 @@ a:hover {
     min-height: 45px;
     min-width: 70px;
     box-shadow: 1px 2px 3px
-
-
-
 }
-.infobuttons  a{
+
+.infobuttons a {
     color: black;
     text-decoration: none;
     font-size: 18px;
@@ -489,18 +489,18 @@ a:hover {
 
 
 
-.kinfo > p {
-    font-family:'Times New Roman', Times, serif;
+.kinfo>p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 
-    
+
 }
 
 
 
 
 
-.ainfo{
+.ainfo {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -508,17 +508,15 @@ a:hover {
 
     min-height: 550px;
     min-width: 570px;
-    background-color:rgb(170, 170, 170);
+    background-color: rgb(170, 170, 170);
     border: black solid 2px;
 
 }
 
 
-.ainfo > p {
-    font-family:'Times New Roman', Times, serif;
+.ainfo>p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 
-    
+
 }
-
-
