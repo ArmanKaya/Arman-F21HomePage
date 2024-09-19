@@ -20,6 +20,11 @@ figcaption {
     text-decoration: underline;
 }
 
+button:hover {
+    box-sizing: border-box;
+    transform:scale(1, 1.1 );
+}
+
 
 
 a:hover {
@@ -66,21 +71,17 @@ figure:hover {
     color: orange;
 }
 
-footer {
-    display: flex;
-    justify-content: space-around;
-
-}
 
 footer {
     display: flex;
     border: #EF7C00 solid 5px;
     height: 60px;
     background-color: #EF7C00;
-
-
+    justify-content: space-around;
 
 }
+
+
 
 img {
     display: block;
@@ -93,6 +94,7 @@ nav {
     justify-content: space-between;
     background-color: black;
     box-shadow: 1px 2px 3px;
+    color: #EF7C00;
 
 
 }
@@ -210,7 +212,7 @@ a:hover {
     display: flex;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    padding-left: 10px;
+    padding: 10px;
 
 }
 
@@ -312,7 +314,24 @@ a:hover {
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     box-shadow: 1px 2px 3px;
+    
 }
+
+.box3:hover{
+    transform:scale(1, 1.012 ) ;
+}
+
+
+.box2:hover{
+    transform:scale(1, 1.012 ) ;
+}
+
+
+.box1:hover{
+    transform:scale(1, 1.012 ) ;
+}
+
+
 
 .boxes {
     display: flex;
